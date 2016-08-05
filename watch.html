@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="ios.css">
+</head>
+<body>
+    <div class="cen">
+        <h1>Stopwatch</h1>
+        <span class="hour" id="hr">00</span>
+        <span class="dot">:</span>
+        <span class="minute" id="mn">00</span>
+        <span class="dot">:</span>
+        <span class="second" id="sc">00</span>
+        <span class="dot">:</span>
+        <span class="milsecond" id="milsc">0</span>
+    </div>
+
+    <div id="toggles">
+        <input type="checkbox" name="checkbox1" id="checkbox1" class="ios-toggle" unchecked/>
+        <label for="checkbox1" class="checkbox-label" data-off="stopwatch off" data-on="stopwatch on"></label>
+
+        <!-- <input class="timerInput" type="text" name="">
+        <input type="checkbox" name="checkbox1" id="checkbox2" class="ios-toggle" checked/>
+        <label for="checkbox2" class="checkbox-label" data-off="timer off" data-on="timer on"></label> -->
+
+        <input type="checkbox" name="checkbox1" id="checkbox3" class="ios-toggle" unchecked/>
+        <label for="checkbox3" class="checkbox-label" data-off="reset" data-on="reset done"></label>
+    </div>
+
+    <script type="text/javascript" src ="watch.js"></script>
+</body>
+</html>
