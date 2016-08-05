@@ -15,10 +15,10 @@ window.onload = function() {
 
 function resetWatch() {
     clearTimeout(timeout);
-    var milsec = 0;
-    var sec = 0;
-    var minute = 0;
-    var hour = 0;
+    milsec = 0;
+    sec = 0;
+    minute = 0;
+    hour = 0;
     document.getElementById("hr").innerHTML = "00";
     document.getElementById("mn").innerHTML = "00";
     document.getElementById("sc").innerHTML = "00";
